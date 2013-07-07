@@ -1,3 +1,6 @@
+# Part of the workstartion-puppet repo
+# Purpose: Setup google chrome repo and install chrome
+
 yumrepo { 'google-chrome-x64':
   descr          => 'Google Chrome Linux X64 Repo',
   enabled        => '1',
